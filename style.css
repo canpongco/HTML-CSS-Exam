@@ -1,0 +1,253 @@
+* {
+    /* outline: 1px dotted red; */
+    border: 0 none;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.header {
+    background-color: #047bc4;
+    padding: 5px;
+}
+
+.header .topHeader{
+    width: 55%;
+    position: absolute;
+    right: 0;
+    font-size: 12px;
+}
+
+.topIcons {
+    color: #ffffff;
+    margin: 5px;
+}
+
+.topIcons a {
+    text-decoration: none;
+}
+
+.forLogo {
+    width: 20%;
+    display: inline-block;
+}
+
+.logo {
+    width: 200px;
+    margin-top: 10px;
+}
+
+.search {
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.searchForm {
+    position: relative;
+}
+
+input[type=text] {
+    width: 70%;
+    border-radius: 20px;
+    color: #2d9fd9;
+    padding: 5px 50px 5px 10px;
+}
+
+input[type=text]:focus {
+    outline: none;
+    color: #2d9fd9;
+}
+
+select {
+    position: absolute;
+    border-radius: 20px 0 0 20px;
+    background-color: #dfebed;
+    padding: 4px 10px;
+}
+
+button {
+    position: absolute;
+    border-radius: 0 20px 20px 0;
+    background-color: #fdbb30;
+    padding: 5px 10px;
+    /* right: 10;
+    top: 0; */
+}
+
+.rightHeader {
+    width: 25%;
+    display: inline-block;
+    text-align: right;
+    border-right: 1px solid #000000;
+    padding-right: 5px;
+}
+
+.rightHeader p,
+.signIn {
+    color: #ffffff;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 2px;
+}
+
+.myAccount {
+    color: #ffffff;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.cart {
+    color: #ffffff;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.body {
+    margin-top: 10px;
+}
+
+.nav {
+    box-shadow: 1px 4px 5px 0px rgba(0,0,0,0.75);
+    padding: 10px;
+}
+
+.navText {
+    font-size: 16px;
+    margin: 5px;
+}
+
+.blueText {
+    color: #0174b8;
+}
+
+.redText {
+    color: #cf082d;
+}
+
+.greenText {
+color: #3f7e1a;
+margin-left: 35%;
+}
+
+.carousel {
+    padding-left: 30%;
+    height: 250px;
+}
+.carouText {
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 40px;
+}
+
+.carouImage {
+    width: 79%;
+    height: 250px;
+    display: inline-block;
+}
+
+.carousel h4 {
+    color: #047dc6;
+    font-style: italic;
+}
+
+.carousel h1,
+.carousel h2 {
+    color: #76c044;
+    font-style: italic;
+}
+
+.carousel h3 {
+    color: #f47424;
+    font-style: italic;
+}
+
+.learnMore {
+    color: #047dc5;
+}
+
+.restrict {
+    font-size: 10px;
+}
+
+.divider p {
+    width: 49%;
+    display: inline-block;
+}
+
+.divider a {
+    width: 49%;
+    display: inline-block;
+    text-decoration: none;
+    text-align: right;
+}
+
+.products {
+    padding: 10px;
+}
+
+.products img,
+.thumbnails img {
+    width: 100px;
+    height: 100px;
+}
+
+.prod {
+    width: 13%;
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+}
+
+.price {
+    color: #047dc5;
+    font-size: 15px;
+}
+
+.dollar {
+    font-size: 10px;
+}
+
+.save {
+    color: #e30402;
+    font-size: 12px;
+}
+
+.prodName {
+    font-size: 15px;
+}
+
+.firstThumb {
+    width: 13px;
+    display: inline-block;
+}
+
+.firstThumbp {
+    color: #76c143;
+    font-size: 15px;
+}
+
+.thumbnailImg {
+    width: 30px;
+    height: 30px;
+}
+
+.thumImg {
+    width: 30px;
+    height: 30px;
+}
+/* 
+@media only screen and (max-width: 480px) {
+}
+
+@media only screen and (min-width: 1024px) {
+} */
